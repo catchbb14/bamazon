@@ -20,15 +20,15 @@ Bamazon serves to accomplish the following:
 
 #### Step 1: Install dependencies and run node bamazonCustomer.js
 
-![Step 1](./images/step1.png) 
+![Step 1](./images/step1.PNG) 
 
 #### Step 2: Choose an item from the provided list and enter a quantity:
 
-![Step 2 - Invalid](./images/step2err.png)
+![Step 2 - Invalid](./images/step2err.PNG)
 
 If the inputed value is not a number, less than 1 or more than the stock quantity, the user is prompted to enter
 a number within the valid range.
 
-![Step 2 - Valid](./images/step2.png)
+![Step 2 - Valid](./images/step2.PNG)
 
 If the value is correct, the total for the transaction is displayed, as well as the updated inventory.

@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 });
 var availableItems = [];
 
-function refreshDataList() {
+function refreshTable() {
     availableItems = [];
     connection.connect();
     
@@ -39,7 +39,7 @@ function promptUser() {
         }
     ]).then( function(answer) {
         var item_id = answer['itemChosen'];
-        console.log(item_id);
+        
     })
 }
 
@@ -63,6 +63,6 @@ function displayItems(productList) {
 }
 
 
-refreshDataList();
+refreshTable();
 
  
